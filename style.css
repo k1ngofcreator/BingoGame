@@ -1,0 +1,84 @@
+body{
+    background-color: silver;
+}
+
+.content{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pannel{
+    background-color: whitesmoke;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    color: lightsalmon;
+    font-size: 300px;
+    border-radius: 10px;
+    vertical-align: middle;
+    float: left;
+    left: 50%;
+    transform: translateX(-100%);
+}
+
+.pannel:first-child{
+    margin-right: 10px;
+}
+
+.btn-main{
+    clear: both;
+}
+
+.btn-content{
+    text-align: center;
+}
+
+.btn{
+    margin-top: 30px;
+    height: 50px;
+    width: 300px;
+    border: none;
+    border-radius: 15px;
+    font-size: 30px;
+    color: white;
+}
+
+.btn.inactive{
+    background-color: gray !important;
+}
+
+#stopBtn{
+    background-color: lightblue;
+}
+
+#spinBtn{
+    background-color: lightcoral;
+}
+
+#result{
+    margin-top: 50px;
+}
+
+.line{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.bingo{
+    background-color: whitesmoke;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: lightskyblue;
+    border-radius: 10px;
+}
+
+.bingo.matched{
+    background-color: yellow;
+}
