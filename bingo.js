@@ -1,3 +1,5 @@
+//テストA
+
 //効果音実行クラス
 class soundManager{
     
